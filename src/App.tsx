@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <div style={{width: '100%', backgroundColor: 'white', height: '40px'}}>
-    <a href="http://localhost:3000/cv.pdf" download="Julian Caminos - CV">
+    <a href="http://juliancaminos.com/cv.pdf" download="Julian Caminos - CV">
 
     <Button style={{marginRight: '20px'}} variant='ghost'>
           <Download className="mr-2 h-4 w-4" /> Descargar
@@ -34,7 +34,7 @@ function App() {
     >
       
       <div style={{ border: "4px solid white" }}>
-        <Document renderMode="canvas" file="http://localhost:3000/cv.pdf">
+        <Document renderMode="canvas" file="http://juliancaminos.com/cv.pdf">
           <Page scale={0.8} pageNumber={1} />
         </Document>
       </div>
